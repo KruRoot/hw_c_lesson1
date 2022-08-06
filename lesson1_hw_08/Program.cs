@@ -6,7 +6,7 @@ int num = int.Parse(Console.ReadLine());
 for (int index = 1; index <= num; index++)
     if (index % 2 == 0)
         {
-        Console.WriteLine(index);
+        Console.Write($"{index}, ");
         }
     else {
 
